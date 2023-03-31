@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Organizer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="note">
+            <h3>My Notes:</h3>
+            <form>
+                <input class="inputBox" id="item" type="text" autocomplete="off" placeholder="Write a note" required="">
+            </form>
+            <table class="tbl"></table>
+            <button class="btn btn-lg btn-primary" id="submit" type="button">Submit</button>
+            <button class="btn btn-lg btn-primary" id="clear" type="submit">Clear All</button>
+            <script src="scripts/note.js"></script>
+        </div>
+
+        <div class="searchCity">
+            <input type="text" autocomplete="off" class="search-box" placeholder ="Choose city..." />
+        </div>
+
+        <div class="time">
+            <div id = timp></div>
+            <script src="scripts/updateClock.js"></script>
+        </div>
+
+        <div class="cityWeather">
+            <section class="location">
+                <div class="city">Bucharest, RO</div>
+                <div class="date">Sunday 20 April 2020</div>
+            </section>
+            <div class="current">
+                <div class="temp">20<span>°c</span></div>
+                <div class="weather">Rainy</div>
+                <div class="lowhi">18°c / 23°c</div>
+            </div>
+            <script src="scripts/weather.js"></script>
+        </div>
+    </div>
+</body>
+</html>

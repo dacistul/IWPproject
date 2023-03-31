@@ -1,0 +1,114 @@
+body {
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+.inputBox {
+  width: 100%;
+}
+.mainWindow {
+   padding: 20px;
+   width: 50%;
+   max-width: 700px;
+}
+.tbl {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btnCell {
+  margin-right: 5px;
+}
+
+.note {
+    height: 90vh;
+    width: 50%;
+    float: left;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background-color: lightgreen;
+}
+
+.searchCity {
+    height: 40px;
+    width: 30%;
+    float: left;
+    padding-top: 5px;
+    padding-right: 4px;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+
+.search-box {
+    text-indent: 4px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px 0px 10px 0px;
+    border-bottom: 4px solid #edeb57;
+    max-width: 100%;
+}
+
+.time {
+    height: 40px;
+    width: 20%;
+    float: left;
+    text-align: center;
+    font-size: 26px;
+    background-color: lightcoral;
+}
+
+.cityWeather {
+    height: 90vh;
+    text-align: center;
+    float: inherit;
+    padding-top: 50px;
+    background-color: lightblue;
+}
+
+.location .city {
+    color: black;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.location .date {
+    color: #5f5953;
+    font-size: 16px;
+}
+
+.current .temp {
+    color: #FFF;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 20px 0px;
+    text-shadow: 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.current .temp span {
+    font-weight: 500;
+}
+
+.current .weather {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.current .lowhi {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 600;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.4);
+}
